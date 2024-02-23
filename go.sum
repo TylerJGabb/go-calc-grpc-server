@@ -1,5 +1,7 @@
 github.com/TylerJGabb/go-calc-grpc-contract v0.0.0-20240223144623-9c22a81e3274 h1:B7FjaqAORLW46kkiih0sir1xEOxDW3X7p3jdw6A53o8=
 github.com/TylerJGabb/go-calc-grpc-contract v0.0.0-20240223144623-9c22a81e3274/go.mod h1:lXpjtASj7vYcQqcq8BssUQ8OmaL0u1LHdC+WQsWF2u0=
+github.com/TylerJGabb/go-calc-grpc-contract v1.0.0 h1:vksQic8vL9rWGx50qJ0cfxIyMnjugKMjAHeBBsISiko=
+github.com/TylerJGabb/go-calc-grpc-contract v1.0.0/go.mod h1:lXpjtASj7vYcQqcq8BssUQ8OmaL0u1LHdC+WQsWF2u0=
 github.com/golang/protobuf v1.5.0/go.mod h1:FsONVRAS9T7sI+LIUmWTfcYkHO4aIWwzhcaSAoJOfIk=
 github.com/golang/protobuf v1.5.3 h1:KhyjKVUg7Usr/dYsdSqoFveMYd5ko72D+zANwlG1mmg=
 github.com/golang/protobuf v1.5.3/go.mod h1:XVQd3VNwM+JqD3oG2Ue2ip4fOMUkwXdXDdiuN0vRsmY=

@@ -2,7 +2,7 @@ module go-calc-grpc-server
 
 go 1.21.4
 
-require github.com/TylerJGabb/go-calc-grpc-contract v0.0.0-20240223144623-9c22a81e3274
+require github.com/TylerJGabb/go-calc-grpc-contract v1.0.0
 
 require (
 	github.com/golang/protobuf v1.5.3 // indirect
