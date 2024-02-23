@@ -1,0 +1,26 @@
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+
+  foo:
+    runs-on: ubuntu-latest
+    env:
+      GOPRIVATE: "github.com/TylerJGabb/*"
+      GH_ACCESS_TOKEN: ${{ secrets.GH_ACCESS_TOKEN }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Setup Go
+        uses: actions/setup-go@v2
+        with:
+          go-version: 1.21.4
+      # https://blog.fabianmendez.dev/how-to-use-private-go-module-in-github-actions          
+      - run: git config --global url.https://$GH_ACCESS_TOKEN@github.com/.insteadOf https://github.com/
+      - name: Build
+        run: |
+          go build
+    
